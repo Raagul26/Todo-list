@@ -19,6 +19,8 @@ body{
     flex:1;
     padding: 8px;
     font-size: 15px;
+    border: 2px solid rgb(207, 154, 154);
+    outline: none;
 }
 
 button{
@@ -26,15 +28,17 @@ button{
     padding:0px 20px;
     font-size: 18px;
     letter-spacing: 2px;
-    background-color: rgb(138, 196, 243);
-    border-radius: 10px;
+    background-color: rgb(238, 201, 153);
     border: 2px solid rgb(47, 158, 248);
-    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(47, 158, 248);
 }
 
 button:hover{
     cursor: pointer;
-    background-color: rgb(90, 154, 206);
+    background-color: rgb(115, 187, 247);
+    color: white;
+    border: 2px solid white;
 }
 
 .list-section ul{
@@ -47,7 +51,7 @@ button:hover{
 
 .list-section ul li{
     display: flex;
-    padding: 6px;
+    padding: 6px 14px;
     justify-content: space-between;
     align-items: center;
     border: 1px solid rgb(255, 255, 255);
@@ -55,3 +59,15 @@ button:hover{
     font-size: 18px;
     border-radius: 5px;
 }
+
+.remove
+{
+    height: 26px;
+    width: 26px;
+}
+
+.remove:hover{
+    cursor: pointer;
+    fill: rgb(230, 59, 59);
+}
+
